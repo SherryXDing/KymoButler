@@ -1,7 +1,7 @@
 ![alt text](misc/logo.png "KymoButler")
 ## The AI that analyses your kymograph
 ### 2. Use the cloud app!
-Easy drag and drop software under https://kymobutler.deepmirror.ai
+Easy drag and drop software under http://kymobutler.deepmirror.ai
 ### 2. Usage of KymoButler Mathematica Library
 Download KymoButler.nb and open it in Mathematica. Run the first cell to download the necessary neural networks and the KymoButler package. The use the function `KymoButler[]` to analyse your kymographs.
 ### 2. Usage of (deprecated) python KymoButler script

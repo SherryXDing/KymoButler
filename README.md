@@ -1,6 +1,10 @@
 ![alt text](misc/logo.png "KymoButler")
 ## The AI that analyses your kymograph
-### Setup
+### 1. Usage of KymoButler Mathematica Library
+Download KymoButler.nb and open it in Mathematica. Run the first cell to download the necessary neural networks and the KymoButler package. The use the function `KymoButler[]` to analyse your kymographs.
+### 2. Usage of KymoButler Mathematica Library
+Download KymoButler.nb and open it in Mathematica. Run the first cell to download the necessary neural networks and the KymoButler package. The use the function `KymoButler[]` to analyse your kymographs. 
+### 3. Use (depreceated) python KymoButler script
 Clone this repository or download it to your local folder. Make sure to have the correct python version (3.6) and packages installed (see `required_packages.txt` and `conda_environments.txt`). We recommend using Anaconda (https://www.anaconda.com) and setup a virtual environment to avoid any conflicts.
 ### Running KymoButler from the command line
 You have multiple options to run KymoButler:
@@ -22,7 +26,5 @@ After running KymoButler on your target images, you will find in your folder 4 o
 * `image_retprob.bmp`, showing the retrograde traces found by the network
 * `image_overlay.bmp`, showing the thresholded anterograde and retrograde traces found by the network, overlayed to the original image. To change the threshold value (default = 0.2), change threshold_value in `config.py`
 * `image_kymographs.csv`, where the coordinates of the thresholded traces are saved
-### Cloud version
-We provide a hassle-free, one-click version of KymoButler on http://kymobutler.deepmirror.ai
-### Source Data
-The source data for the validation data set of our paper https://www.biorxiv.org/content/early/2018/08/30/405183 is found under (...). This archive contains 3 folders containing the same 2 biological repeats once analysed by hand, with KymoButler, and with plusTipTracker. The folders contain subfolders for each cell. Raw movie data and kymographs are included in the plustiptracker folder. Hand analysed raw data is supplied in xml format. Both KymoButler and plusTipTracker data is supplied in .mat (MATLAB) format. Full processed data is supplied in .mat format in the respective top folder.
+
+
